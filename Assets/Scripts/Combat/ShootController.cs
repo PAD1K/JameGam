@@ -17,6 +17,7 @@ public class ShootController : MonoBehaviour, ICanShoot
     {
         Bullet bullet = _bulletPool.Get();
         bullet.transform.position = transform.position;
+        bullet.transform.rotation = Quaternion.Euler(direction);
         bullet.Rigidbody.velocity = direction.normalized * _bulletSpeed;
     }
 }
