@@ -33,7 +33,6 @@ public class MovementController : MonoBehaviour, IMovable
 
     private void Awake()
     {
-        _movementSpeed = 0;
         _rigidbody = gameObject.GetComponent<Rigidbody>();
         _rigidbody.freezeRotation = true;
     }
