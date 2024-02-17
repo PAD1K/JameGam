@@ -3,7 +3,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour, IObjectPoolElement<Bullet>
 {
     [SerializeField] private int _bulletDamage = 5;
-    public Rigidbody2D Rigidbody2D { get; private set; }
+    public Rigidbody Rigidbody { get; private set; }
     private ObjectPool<Bullet> _objectPool;
 
     public void SetObjectPool(ObjectPool<Bullet> objectPool)
@@ -13,16 +13,16 @@ public class Bullet : MonoBehaviour, IObjectPoolElement<Bullet>
 
     private void Awake()
     {
-        if (!TryGetComponent<Rigidbody2D>(out Rigidbody2D rigidbody2D))
+        if (!TryGetComponent<Rigidbody>(out Rigidbody rigidbody))
         {
             Debug.LogError($"Set Rigidbody2D on object {gameObject.name}");
             return;
         }
         
-        Rigidbody2D = rigidbody2D;
+        Rigidbody = rigidbody;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter(Collision collision)
     {
         /*if(!collision.gameObject.TryGetComponent<EnemyController>(out EnemyController enemyController) &&
             !collision.gameObject.TryGetComponent<Stats>(out Stats stats))
@@ -42,9 +42,11 @@ public class Bullet : MonoBehaviour, IObjectPoolElement<Bullet>
         }
 
         ReleaseBullet();*/
-
-        Debug.Log($"Damage: {_bulletDamage}");
-        ReleaseBullet();
+        if(collision.gameObject.tag == "Player")
+        {
+            Debug.Log($"Damage: {_bulletDamage}");
+            ReleaseBullet();
+        }
     }
 
     private void ReleaseBullet()
