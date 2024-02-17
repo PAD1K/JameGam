@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class MovementController : MonoBehaviour, IMovable
 {
     public float MovementSpeed
@@ -9,7 +10,6 @@ public class MovementController : MonoBehaviour, IMovable
         get { return _movementSpeed; }
     }
     [SerializeField] private float _movementSpeed;
-    private Rigidbody _rigidbody;
 
     /// <summary>
     /// Перемещает объект в указанном направлении с учетом скорости движения.
