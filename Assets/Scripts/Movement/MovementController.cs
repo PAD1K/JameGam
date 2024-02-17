@@ -9,6 +9,7 @@ public class MovementController : MonoBehaviour, IMovable
         get { return _movementSpeed; }
     }
     [SerializeField] private float _movementSpeed;
+    private Rigidbody _rigidbody;
 
     /// <summary>
     /// Перемещает объект в указанном направлении с учетом скорости движения.
@@ -26,12 +27,13 @@ public class MovementController : MonoBehaviour, IMovable
             _movementSpeed = 0;
         }
 
-        gameObject.GetComponent<Rigidbody>().AddForce(direction * _movementSpeed, ForceMode.VelocityChange);
+        _rigidbody.AddForce(direction * _movementSpeed, ForceMode.VelocityChange);
     }
 
     private void Awake()
     {
         _movementSpeed = 0;
-        gameObject.GetComponent<Rigidbody>().freezeRotation = true;
+        _rigidbody = gameObject.GetComponent<Rigidbody>();
+        _rigidbody.freezeRotation = true;
     }
 }
