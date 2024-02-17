@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IShootable
+public interface ICanShoot
 {
     void Shoot(Vector3 direction);
 }
