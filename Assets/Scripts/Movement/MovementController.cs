@@ -10,6 +10,7 @@ public class MovementController : MonoBehaviour, IMovable
         get { return _movementSpeed; }
     }
     [SerializeField] private float _movementSpeed;
+    private Rigidbody _rigidbody;
 
     /// <summary>
     /// Перемещает объект в указанном направлении с учетом скорости движения.
