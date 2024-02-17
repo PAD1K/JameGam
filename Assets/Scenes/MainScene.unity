@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 8043422998609366867, guid: 59f2a336178e50b42b3d5ab0a05929b6, type: 3}
+      propertyPath: _bulletPrefab
+      value: 
+      objectReference: {fileID: 7536975825459929511, guid: de9ccbb5f390c744f908b9dcc0b3f153, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
