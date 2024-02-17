@@ -6,4 +6,5 @@ public interface IMovable
 {
     float MovementSpeed { get; }
     void Move(Vector3 direction);
+    void Dash(Vector3 direction);
 }
