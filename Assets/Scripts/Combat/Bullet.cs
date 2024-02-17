@@ -48,6 +48,6 @@ public class Bullet : MonoBehaviour, IObjectPoolElement<Bullet>
 
     private void ReleaseBullet()
     {
-        _objectPool.Release(this);
+        _objectPool?.Release(this);
     }
 }
