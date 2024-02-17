@@ -10,8 +10,13 @@ public class Stats : MonoBehaviour, IDamageable
     }
     [SerializeField] private int _health;
 
+    /// <summary>
+    /// Наносит урон объекту.
+    /// </summary>
+    /// <param name="damage">Количество урона, которое нужно нанести.</param>
     public void Damage (int damage)
     {
+        // Проверка на то, что урон нельзя нанести уже мертвому объекту.
         if (_health <= 0)
         {
             return;
@@ -29,7 +34,10 @@ public class Stats : MonoBehaviour, IDamageable
             Death();
         }
     }
-
+    
+    /// <summary>
+    /// Обрабатывает смерть объекта.
+    /// </summary>
     public void Death()
     {
         gameObject.SetActive(false);
