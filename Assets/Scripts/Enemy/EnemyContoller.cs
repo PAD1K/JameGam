@@ -6,21 +6,9 @@ public class EnemyContoller : MonoBehaviour, IDamageable
 {
     [SerializeField] private float _moveTime;
     [SerializeField] private float _attackTime;
-    public int Health
-    {
-       get
-       {
-           return _health;
-       }
-    }
-    public float MoveTime
-    {
-        get { return _moveTime;}
-    }
-    public float AttackTime
-    {
-        get { return _attackTime;}
-    }
+    public int Health => _health;
+    public float MoveTime => _moveTime;
+    public float AttackTime => _attackTime;
     private int _health;
 
 

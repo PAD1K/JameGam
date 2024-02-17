@@ -5,10 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class MovementController : MonoBehaviour, IMovable
 {
-    public float MovementSpeed
-    {
-        get { return _movementSpeed; }
-    }
+    public float MovementSpeed => _movementSpeed;
     [SerializeField] private float _movementSpeed;
     private Rigidbody _rigidbody;
 
@@ -28,13 +25,16 @@ public class MovementController : MonoBehaviour, IMovable
             _movementSpeed = 0;
         }
 
-        _rigidbody.AddForce(direction * _movementSpeed, ForceMode.VelocityChange);
+        _rigidbody.AddForce(direction * _movementSpeed, ForceMode.Acceleration);
     }
 
     private void Awake()
     {
-        _movementSpeed = 0;
         _rigidbody = gameObject.GetComponent<Rigidbody>();
         _rigidbody.freezeRotation = true;
+    }
+
+    private void Update() {
+        Move(new Vector3(1, 0, 0));
     }
 }
