@@ -42,11 +42,8 @@ public class Bullet : MonoBehaviour, IObjectPoolElement<Bullet>
         }
 
         ReleaseBullet();*/
-        if(collision.gameObject.tag == "Player")
-        {
-            Debug.Log($"Damage: {_bulletDamage}");
-            ReleaseBullet();
-        }
+        Debug.Log($"Damage: {_bulletDamage}");
+        ReleaseBullet();
     }
 
     private void ReleaseBullet()
