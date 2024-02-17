@@ -16,12 +16,10 @@ public class EnemyContoller : MonoBehaviour, IShootable, IDamageable
     public float MoveTime
     {
         get { return _moveTime;}
-        set { _moveTime = value;}
     }
     public float AttackTime
     {
         get { return _attackTime;}
-        set { _attackTime = value;}
     }
     private int _health;
 
@@ -44,6 +42,11 @@ public class EnemyContoller : MonoBehaviour, IShootable, IDamageable
     }
 
     public void Damage(int damage)
+    {
+
+    }
+
+    public void Death()
     {
 
     }

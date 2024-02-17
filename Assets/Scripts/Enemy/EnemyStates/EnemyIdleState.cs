@@ -1,24 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyIdleState : StateMachineBehaviour
 {
     private EnemyContoller _enemyController;
+    private float _enemyAttackTime = 0.0f;
+    private float _enemyMoveTime = 0.0f;
+
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       _enemyController = animator.GetComponentInParent<EnemyContoller>();
+      _enemyController = animator.GetComponentInParent<EnemyContoller>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       _enemyController.MoveTime -= Time.deltaTime;
-       animator.SetFloat("MoveTime", _enemyController.MoveTime);
-       _enemyController.AttackTime -= Time.deltaTime;
-       animator.SetFloat("AttackTime", _enemyController.AttackTime);
+      _enemyAttackTime += Time.deltaTime;
+      _enemyMoveTime += Time.deltaTime;
+      if(_enemyAttackTime >= _enemyController.AttackTime)
+      {
+         animator.SetBool("IsAttacking", true);
+         _enemyAttackTime = 0.0f;
+      }
+      if(_enemyMoveTime >= _enemyController.MoveTime)
+      {
+         animator.SetBool("IsMoving", true);
+         _enemyMoveTime = 0.0f;
+      }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
