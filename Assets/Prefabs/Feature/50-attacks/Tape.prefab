@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &511733119309669804
+--- !u!1 &4548688763454247882
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3207619193067350735}
-  - component: {fileID: 7318227808229240725}
-  m_Layer: 0
-  m_Name: Boomerang
+  - component: {fileID: 1072984767806842213}
+  - component: {fileID: 3899311747866892241}
+  m_Layer: 9
+  m_Name: Tape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3207619193067350735
+--- !u!4 &1072984767806842213
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511733119309669804}
+  m_GameObject: {fileID: 4548688763454247882}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.41944575, y: -0.69588274, z: 0.2270967}
+  m_LocalPosition: {x: -2.741622, y: 4.41189, z: -0.5356396}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7318227808229240725
+--- !u!114 &3899311747866892241
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511733119309669804}
+  m_GameObject: {fileID: 4548688763454247882}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbdd9864bfcc2324ea9b5d93e04f6567, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f81c117a53eeac468cef8a14b9de110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletPrefab: {fileID: 6950848092328948195, guid: eeaf6b850eb2ca34aa0f64bb18dfa9e4, type: 3}
-  _weapon: {fileID: 0}
-  _bulletSpeed: 5
+  _warnTrajectoryPrefab: {fileID: 107265868412443047, guid: 23c90b9718affe84d9421bb88cf5ffa2, type: 3}
+  _damagePrefab: {fileID: 73054024853628965, guid: d14cfa8c120748448bf4ec2a94142976, type: 3}
+  _speed: 100
+  _startSpeed: 0

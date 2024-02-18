@@ -21,7 +21,7 @@ public class EnemyContoller : MonoBehaviour, IDamageable
     {
         get { return _attackTime;}
     }
-    private int _health;
+    private int _health = 100;
 
 
     // Start is called before the first frame update
