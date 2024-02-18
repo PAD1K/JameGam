@@ -35,6 +35,5 @@ public class EnemyBullet : MonoBehaviour, IObjectPoolElement<EnemyBullet>
     private void ReleaseBullet()
     {
         _objectPool?.Release(this);
-        // Destroy(gameObject);
     }
 }

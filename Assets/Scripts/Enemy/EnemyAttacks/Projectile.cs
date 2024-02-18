@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Projectile : EnemyAttack, ICanShoot
 {
-    [SerializeField] private Bullet _bulletPrefab;
+    [SerializeField] private EnemyBullet _bulletPrefab;
     [SerializeField] private Transform _weapon;
     [SerializeField] private float _bulletSpeed = 5f;
      public static Projectile Instance;
@@ -27,7 +27,7 @@ public class Projectile : EnemyAttack, ICanShoot
 
     public void Shoot(Vector3 direction)
     {
-        Bullet bullet = Instantiate(_bulletPrefab, _weapon.transform);
+        EnemyBullet bullet = Instantiate(_bulletPrefab, _weapon.transform);
         bullet.transform.position = _weapon.position;
         bullet.transform.rotation = Quaternion.Euler(direction);
         bullet.Rigidbody.velocity = direction.normalized * _bulletSpeed;
