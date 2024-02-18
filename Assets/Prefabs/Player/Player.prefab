@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movementSpeed: 10
-  _dashForce: 0
+  _dashForce: 100
 --- !u!54 &288992939437501723
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -163,7 +163,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &2935509207110020657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1f69c4faf29da74994d4306c3675b06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletPrefab: {fileID: -1666897317719371962, guid: 14d9fc6cbf1e7534b927d6ae1b1b8a78, type: 3}
+  _bulletPrefab: {fileID: -1666897317719371962, guid: 69ad6e428e88c954b9bc2948da635744, type: 3}
   _weapon: {fileID: 2551149169289999036}
   _prewarmBullets: 5
   _bulletSpeed: 5
