@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyContoller : MonoBehaviour, IDamageable
 {
+    public delegate void EnemyChangeState();
+    public static event EnemyChangeState OnEnemyChangeState;
+
     [SerializeField] private float _moveTime;
     [SerializeField] private float _attackTime;
     public int Health
@@ -21,7 +24,7 @@ public class EnemyContoller : MonoBehaviour, IDamageable
     {
         get { return _attackTime;}
     }
-    private int _health = 100;
+    private int _health = 300;
 
 
     // Start is called before the first frame update
@@ -46,7 +49,14 @@ public class EnemyContoller : MonoBehaviour, IDamageable
         {
             damage = 0;
         }
+
         _health -= damage;
+
+        if (_health % 100 == 0)
+        {
+            OnEnemyChangeState?.Invoke();
+        }
+
         if(_health <= 0)
         {
             Death();
