@@ -12,7 +12,7 @@ public class EnemyAttackState : StateMachineBehaviour
         Debug.Log("Attacked");
         _player = GameObject.FindGameObjectWithTag("Player");
         _shootController = animator.GetComponentInParent<ShootController>();
-        _shootController.Shoot(_player.transform.position);
+        _shootController.Shoot(_player.transform.position - animator.transform.position);
         animator.SetBool("IsAttacking", false);
     }
 

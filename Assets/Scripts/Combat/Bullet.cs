@@ -24,25 +24,11 @@ public class Bullet : MonoBehaviour, IObjectPoolElement<Bullet>
 
     private void OnCollisionEnter(Collision collision)
     {
-        /*if(!collision.gameObject.TryGetComponent<EnemyController>(out EnemyController enemyController) &&
-            !collision.gameObject.TryGetComponent<Stats>(out Stats stats))
+        IDamageable target;
+        if(collision.transform.TryGetComponent<IDamageable>(out target))
         {
-            ReleaseBullet();
-            return;
+            target.Damage(_bulletDamage);
         }
-
-        if(enemyController != null)
-        {
-            enemyController.Damage(_bulletDamage);
-        }
-
-        if (stats != null)
-        {
-            stats.Damage(_bulletDamage);
-        }
-
-        ReleaseBullet();*/
-        Debug.Log($"Damage: {_bulletDamage}");
         ReleaseBullet();
     }
 

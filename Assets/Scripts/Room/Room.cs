@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Room : MonoBehaviour, IRoomable
 {
-    [SerializeField] private GameObject _items;
+    [SerializeField] private List<GameObject> _itemsToHide = new List<GameObject>();
     [SerializeField] private GameObject _picture;
     private Vector3 _defaultPosition;   
 
@@ -16,16 +16,19 @@ public class Room : MonoBehaviour, IRoomable
     }
     public void Hide()
     {
-        _items.SetActive(false);
-
-        Debug.Log($"Hide {gameObject}");
+        foreach(GameObject item in _itemsToHide)
+        {
+            item.SetActive(false);
+        }
     }
 
     public void Reveal()
     {
-        _items.SetActive(true);
+        foreach(GameObject item in _itemsToHide)
+        {
+            item.SetActive(true);
+        }
 
         transform.position = Vector3.zero;
-        Debug.Log($"Reveal {gameObject}");
     }
 }
