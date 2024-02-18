@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: 4c7cd7cd2f63be3489f91e7a576d5149
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: death baby_Frame_0
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 4
+      width: 17
+      height: 20
+    spriteID: 778d1fc59b238724d96b4c823220bc8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 4}
+  - name: death baby_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 32
+      width: 14
+      height: 20
+    spriteID: 12d6842fdee40ed4e9a001ea8d841b88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 32}
+  - name: death baby_Frame_2
+    originalName: 
+    pivot: {x: 0.4166667, y: -1.5625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 60
+      width: 12
+      height: 16
+    spriteID: 65ff0b63cf1ec3b498b638654c759838
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 60}
+  - name: death baby_Frame_3
+    originalName: 
+    pivot: {x: 0.27272728, y: -1.7333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 84
+      width: 11
+      height: 15
+    spriteID: e0248367dc7877f42a3bbb5cda75c966
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 84}
+  - name: death baby_Frame_4
+    originalName: 
+    pivot: {x: 0.22222222, y: -2.9}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 32
+      width: 9
+      height: 10
+    spriteID: d31ecb8053f0cd54e9f38521024e38fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 32}
+  - name: death baby_Frame_5
+    originalName: 
+    pivot: {x: 0.375, y: -2.777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 49
+      y: 60
+      width: 8
+      height: 9
+    spriteID: 26808bb4bc365374099497b1d866ead9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 49, y: 60}
+  - name: death baby_Frame_6
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 107
+      width: 9
+      height: 16
+    spriteID: 4ac121786447c544cbd23a8bb80dcebd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 107}
+  - name: death baby_Frame_7
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.85714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 17
+      height: 21
+    spriteID: f044d99dbc87b5c419647892418ac5e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: death baby_Frame_8
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.85714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 33
+      width: 17
+      height: 21
+    spriteID: d5ec97baaba66cc43969aa7a8204d958
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 33}
+  - name: death baby_Frame_9
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.85714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 62
+      width: 17
+      height: 21
+    spriteID: 4160b1faa56c79e47a5dfd9c4c187d95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 62}
+  - name: death baby_Frame_10
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.85714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 91
+      width: 17
+      height: 21
+    spriteID: b0689ebcdc981a9409e63933a0dc1fb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 91}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -960196364
+    name: death baby
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: death baby_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 23
+        y: 22
+        width: 17
+        height: 20
+      spriteId: 778d1fc59b238724d96b4c823220bc8f
+    - name: death baby_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 25
+        y: 22
+        width: 14
+        height: 20
+      spriteId: 12d6842fdee40ed4e9a001ea8d841b88
+    - name: death baby_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 27
+        y: 25
+        width: 12
+        height: 16
+      spriteId: 65ff0b63cf1ec3b498b638654c759838
+    - name: death baby_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 29
+        y: 26
+        width: 11
+        height: 15
+      spriteId: e0248367dc7877f42a3bbb5cda75c966
+    - name: death baby_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 30
+        y: 29
+        width: 9
+        height: 10
+      spriteId: d31ecb8053f0cd54e9f38521024e38fb
+    - name: death baby_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 29
+        y: 25
+        width: 8
+        height: 9
+      spriteId: 26808bb4bc365374099497b1d866ead9
+    - name: death baby_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 28
+        y: 20
+        width: 9
+        height: 16
+      spriteId: 4ac121786447c544cbd23a8bb80dcebd
+    - name: death baby_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 24
+        y: 18
+        width: 17
+        height: 21
+      spriteId: f044d99dbc87b5c419647892418ac5e1
+    - name: death baby_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 24
+        y: 18
+        width: 17
+        height: 21
+      spriteId: d5ec97baaba66cc43969aa7a8204d958
+    - name: death baby_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 24
+        y: 18
+        width: 17
+        height: 21
+      spriteId: 4160b1faa56c79e47a5dfd9c4c187d95
+    - name: death baby_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 24
+        y: 18
+        width: 17
+        height: 21
+      spriteId: b0689ebcdc981a9409e63933a0dc1fb2
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
