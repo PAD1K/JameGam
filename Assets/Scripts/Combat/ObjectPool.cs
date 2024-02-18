@@ -42,7 +42,6 @@ public class ObjectPool<T> where T : MonoBehaviour, IObjectPoolElement<T>
 
     protected T Create()
     {
-        Debug.Log("Instantiate!");
         var obj = GameObject.Instantiate(_prefab);
         _objects.Add(obj);
         return obj;

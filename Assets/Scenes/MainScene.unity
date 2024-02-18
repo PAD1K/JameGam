@@ -851,6 +851,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 288992939437501723, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3823857337098161713, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
       propertyPath: _startRoom
       value: 
@@ -871,6 +875,10 @@ PrefabInstance:
       propertyPath: _rightPassage
       value: 
       objectReference: {fileID: 1038549830}
+    - target: {fileID: 4759857104746791494, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
+      propertyPath: _dashForce
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 4894477757204510329, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
       propertyPath: m_Name
       value: Player

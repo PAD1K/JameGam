@@ -10,6 +10,8 @@ public class InputManager : MonoBehaviour
 
     private PlayerInput _playerInput;
 
+    private Vector2 _lastDirection;
+
     // Start is called before the first frame update
     private void Awake() 
     {
@@ -29,6 +31,12 @@ public class InputManager : MonoBehaviour
         }
 
         _playerInput.Combat.Shoot.started += ProcessShoot;
+        _playerInput.Movement.Dash.started += ProcessDash;
+    }
+
+    private void ProcessDash(UnityEngine.InputSystem.InputAction.CallbackContext context)
+    {
+        _playerMovement.Dash(_lastDirection);
     }
 
     private void ProcessShoot(UnityEngine.InputSystem.InputAction.CallbackContext context)
@@ -45,6 +53,10 @@ public class InputManager : MonoBehaviour
     private void Movement()
     {
         Vector2 inputVector = _playerInput.Movement.MovementDirection.ReadValue<Vector2>();
+        if(inputVector != Vector2.zero)
+        {
+            _lastDirection = inputVector;
+        }
         _playerMovement.Move(inputVector);
     }
 
