@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: 94581e5f01e7b404bb349a94f4ccdf45
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: respawn ded_Frame_0
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.85714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 36
+      width: 17
+      height: 21
+    spriteID: 72ddde43cbe109549a46b33caa61e4c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 36}
+  - name: respawn ded_Frame_1
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.85714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 65
+      width: 17
+      height: 21
+    spriteID: 7d1bedbef2f7f784da66debff919b743
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 65}
+  - name: respawn ded_Frame_2
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.85714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 94
+      width: 17
+      height: 21
+    spriteID: 5000946d9507ac44cbbf5f49941501ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 94}
+  - name: respawn ded_Frame_3
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.85714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 4
+      width: 17
+      height: 21
+    spriteID: 0a7667b8e16302d439ee0e1fa8bf0f57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 4}
+  - name: respawn ded_Frame_4
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.0555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 88
+      width: 11
+      height: 18
+    spriteID: 7008684df8df6bd4b87ab7371037a066
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 88}
+  - name: respawn ded_Frame_5
+    originalName: 
+    pivot: {x: 0.375, y: -2.777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 49
+      y: 111
+      width: 8
+      height: 9
+    spriteID: 3a0fb71d8e090ff439e1433a4df3f2f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 49, y: 111}
+  - name: respawn ded_Frame_6
+    originalName: 
+    pivot: {x: 0.22222222, y: -2.9}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 114
+      width: 9
+      height: 10
+    spriteID: 112cfd40efa247349b40ad02e4965410
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 114}
+  - name: respawn ded_Frame_7
+    originalName: 
+    pivot: {x: 0.27272728, y: -1.7333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 49
+      y: 88
+      width: 11
+      height: 15
+    spriteID: c4a2a304ebf594d41a669292b9463ad3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 49, y: 88}
+  - name: respawn ded_Frame_8
+    originalName: 
+    pivot: {x: 0.4166667, y: -1.4705882}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 63
+      width: 12
+      height: 17
+    spriteID: 5dc91e46dbccb464ab13cd8c6c2222e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 63}
+  - name: respawn ded_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 33
+      width: 14
+      height: 22
+    spriteID: 97240143df9b2f94dbb3e9802c167f56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 33}
+  - name: respawn ded_Frame_10
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.9166667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 18
+      height: 24
+    spriteID: a2454712bbf62014f9f11ba089724baf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1402928143
+    name: respawn ded
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: respawn ded_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 24
+        y: 18
+        width: 17
+        height: 21
+      spriteId: 72ddde43cbe109549a46b33caa61e4c3
+    - name: respawn ded_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 24
+        y: 18
+        width: 17
+        height: 21
+      spriteId: 7d1bedbef2f7f784da66debff919b743
+    - name: respawn ded_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 24
+        y: 18
+        width: 17
+        height: 21
+      spriteId: 5000946d9507ac44cbbf5f49941501ef
+    - name: respawn ded_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 24
+        y: 18
+        width: 17
+        height: 21
+      spriteId: 0a7667b8e16302d439ee0e1fa8bf0f57
+    - name: respawn ded_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 27
+        y: 19
+        width: 11
+        height: 18
+      spriteId: 7008684df8df6bd4b87ab7371037a066
+    - name: respawn ded_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 29
+        y: 25
+        width: 8
+        height: 9
+      spriteId: 3a0fb71d8e090ff439e1433a4df3f2f3
+    - name: respawn ded_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 30
+        y: 29
+        width: 9
+        height: 10
+      spriteId: 112cfd40efa247349b40ad02e4965410
+    - name: respawn ded_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 29
+        y: 26
+        width: 11
+        height: 15
+      spriteId: c4a2a304ebf594d41a669292b9463ad3
+    - name: respawn ded_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 27
+        y: 25
+        width: 12
+        height: 17
+      spriteId: 5dc91e46dbccb464ab13cd8c6c2222e9
+    - name: respawn ded_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 25
+        y: 22
+        width: 14
+        height: 22
+      spriteId: 97240143df9b2f94dbb3e9802c167f56
+    - name: respawn ded_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 22
+        y: 22
+        width: 18
+        height: 24
+      spriteId: a2454712bbf62014f9f11ba089724baf
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
