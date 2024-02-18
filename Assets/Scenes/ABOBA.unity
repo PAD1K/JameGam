@@ -917,6 +917,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 50
+--- !u!135 &1474607837
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15294814}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.32
+  m_Center: {x: 0, y: -0.14, z: 0}
 --- !u!1001 &1475127441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1794,6 +1815,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 8791213029779329771, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
     - {fileID: 29342840452432817, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
+    - {fileID: 1363687367034641875, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5876408789617749923, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
@@ -1809,6 +1831,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4894477757204510329, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1474607831}
+    - targetCorrespondingSourceObject: {fileID: 4894477757204510329, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1474607837}
   m_SourcePrefab: {fileID: 100100000, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
