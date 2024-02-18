@@ -16,7 +16,7 @@ public class Test : MonoBehaviour
         while (true)
         {
             _shootController.Shoot(new Vector3(3, 0, 0));
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(0.5f);
         }
         
     }
