@@ -1088,6 +1088,10 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2935509207110020657, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
+      propertyPath: _bulletPrefab
+      value: 
+      objectReference: {fileID: -1666897317719371962, guid: 69ad6e428e88c954b9bc2948da635744, type: 3}
     - target: {fileID: 3823857337098161713, guid: 9720117051f2aee47b5f55258162aca2, type: 3}
       propertyPath: _startRoom
       value: 
