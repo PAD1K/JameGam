@@ -1,0 +1,1147 @@
+fileFormatVersion: 2
+guid: 69fd6445eb4247a48a2b7dbadd6d46af
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: dodge roll baby_Frame_0
+    originalName: 
+    pivot: {x: 0.53333336, y: -1.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 52
+      width: 15
+      height: 20
+    spriteID: 3fd1b127320bc3a49b11578681daa72c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 52}
+  - name: dodge roll baby_Frame_1
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.6111112}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 26
+      width: 13
+      height: 18
+    spriteID: 4eb0fbd7bc72aa349acaad5c4b6d0ccc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 26}
+  - name: dodge roll baby_Frame_2
+    originalName: 
+    pivot: {x: 0.53333336, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 52
+      width: 15
+      height: 15
+    spriteID: d9fb551cecfa3eb4e8541f837e76d87e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 52}
+  - name: dodge roll baby_Frame_3
+    originalName: 
+    pivot: {x: 0.53333336, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 122
+      width: 15
+      height: 14
+    spriteID: b2ad2b3c1df487d48801539bd4d523b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 122}
+  - name: dodge roll baby_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -1.4375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 163
+      width: 10
+      height: 16
+    spriteID: c95f3c0655e9e174ab105b3381cccc8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 163}
+  - name: dodge roll baby_Frame_5
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 140
+      width: 11
+      height: 15
+    spriteID: 6ba29537c7aa7884b87e95483bab39ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 140}
+  - name: dodge roll baby_Frame_6
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.8571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 238
+      width: 17
+      height: 14
+    spriteID: 7be2da5c537de6e4a8d95d3530eb2e9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 238}
+  - name: dodge roll baby_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -1.4444444}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 233
+      width: 16
+      height: 18
+    spriteID: 667be72e7c14ac84cbfd03aeb31129d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 233}
+  - name: dodge roll baby_Frame_8
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 119
+      width: 15
+      height: 22
+    spriteID: e2c133567e42b104c899ee6f0589c681
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 119}
+  - name: dodge roll baby_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.95652175}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 20
+      height: 23
+    spriteID: 1b5482735816c534cae2ae3a3ebc6667
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: dodge roll baby_Frame_10
+    originalName: 
+    pivot: {x: 0.36842105, y: -1.7647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 179
+      width: 19
+      height: 17
+    spriteID: 85860be8021bf17429bc475611201ba7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 179}
+  - name: dodge roll baby_Frame_11
+    originalName: 
+    pivot: {x: 0.3, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 66
+      width: 20
+      height: 18
+    spriteID: f1b1db5b0f585674095c64e181d6a6fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 66}
+  - name: dodge roll baby_Frame_12
+    originalName: 
+    pivot: {x: 0.1875, y: -1.5882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 134
+      width: 16
+      height: 17
+    spriteID: 632a5906505313042899bc94697aebd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 134}
+  - name: dodge roll baby_Frame_13
+    originalName: 
+    pivot: {x: 0.1764706, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 4
+      width: 17
+      height: 14
+    spriteID: 24d44922ccbead04f80f1eb3b33811d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 4}
+  - name: dodge roll baby_Frame_14
+    originalName: 
+    pivot: {x: 0.0625, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 18
+    spriteID: 2098a4785a218c04e8b4139ccb2d1cda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 80}
+  - name: dodge roll baby_Frame_15
+    originalName: 
+    pivot: {x: 0, y: -1.15}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 106
+      width: 14
+      height: 20
+    spriteID: b1b94e7284b9dd14188b8a9451f0e21c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 106}
+  - name: dodge roll baby_Frame_16
+    originalName: 
+    pivot: {x: -0.15384616, y: -1.2352941}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 97
+      width: 13
+      height: 17
+    spriteID: 7a59f1b0376d909419e48218a884f75f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 97}
+  - name: dodge roll baby_Frame_17
+    originalName: 
+    pivot: {x: -0.125, y: -1.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 214
+      width: 16
+      height: 16
+    spriteID: ca401368e01d8834185c606ac0963a80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 214}
+  - name: dodge roll baby_Frame_18
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.9545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 149
+      width: 15
+      height: 22
+    spriteID: 745089f8c7ca6f446a6c704c0bfc036b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 149}
+  - name: dodge roll baby_Frame_19
+    originalName: 
+    pivot: {x: 0.5833334, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 4
+      width: 12
+      height: 21
+    spriteID: 0bfceca5069b394459f2fa780c6403ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 4}
+  - name: dodge roll baby_Frame_20
+    originalName: 
+    pivot: {x: 0.5833334, y: -1.2631578}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 90
+      width: 12
+      height: 19
+    spriteID: e7f208609deaa0546a47d06accf28f6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 90}
+  - name: dodge roll baby_Frame_21
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 144
+      width: 13
+      height: 16
+    spriteID: f0cecdc2687276e43b142da1732427d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 144}
+  - name: dodge roll baby_Frame_22
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.5333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 168
+      width: 13
+      height: 15
+    spriteID: 0beedde94a07c5a46ab4e119d4856766
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 168}
+  - name: dodge roll baby_Frame_23
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.5333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 191
+      width: 13
+      height: 15
+    spriteID: 32bc82fdca4d2e648ad370830017a70f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 191}
+  - name: dodge roll baby_Frame_24
+    originalName: 
+    pivot: {x: 0.5833334, y: -1.5625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 214
+      width: 12
+      height: 16
+    spriteID: c10dd37312fac2b4a98bdff9515a265c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 214}
+  - name: dodge roll baby_Frame_25
+    originalName: 
+    pivot: {x: 0.5833334, y: -1.7333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 117
+      width: 12
+      height: 15
+    spriteID: f5c61a7654533d146a1e3e6a8e260c0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 117}
+  - name: dodge roll baby_Frame_26
+    originalName: 
+    pivot: {x: 0.5833334, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 33
+      width: 12
+      height: 21
+    spriteID: 52d4b833847512944837d628cfee29ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 33}
+  - name: dodge roll baby_Frame_27
+    originalName: 
+    pivot: {x: 0.625, y: -0.95652175}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 35
+      width: 16
+      height: 23
+    spriteID: 360c964eb60d16149a6f0129352cbab8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 35}
+  - name: dodge roll baby_Frame_28
+    originalName: 
+    pivot: {x: 0.53333336, y: -1.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 204
+      width: 15
+      height: 21
+    spriteID: 464c1d32d94e13042818c889a2c175c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 204}
+  - name: dodge roll baby_Frame_29
+    originalName: 
+    pivot: {x: 0.5555556, y: -1.3684211}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 92
+      width: 18
+      height: 19
+    spriteID: 73b1eb9dc41e43140b55ccd8e040082d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 92}
+  - name: dodge roll baby_Frame_30
+    originalName: 
+    pivot: {x: 0.33333334, y: -1.5625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 4
+      width: 21
+      height: 16
+    spriteID: 4a76aea60c950ed4c91d0f42a0449958
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 4}
+  - name: dodge roll baby_Frame_31
+    originalName: 
+    pivot: {x: 0.2857143, y: -1.3125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 28
+      width: 21
+      height: 16
+    spriteID: f299cdeb08cbab04bb26101435923c8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 28}
+  - name: dodge roll baby_Frame_32
+    originalName: 
+    pivot: {x: -0.083333336, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 62
+      width: 12
+      height: 20
+    spriteID: b113acfb7dd0cee489796d2f3b9c9e06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 62}
+  - name: dodge roll baby_Frame_33
+    originalName: 
+    pivot: {x: 0, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 186
+      width: 13
+      height: 20
+    spriteID: 9602e81e7f6c9e644a97a53bf3b636b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 186}
+  - name: dodge roll baby_Frame_34
+    originalName: 
+    pivot: {x: 0, y: -1.5714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 75
+      width: 16
+      height: 14
+    spriteID: 32a44be588d41d442be920e62d40fa25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 75}
+  - name: dodge roll baby_Frame_35
+    originalName: 
+    pivot: {x: -0.35714287, y: -1.1052631}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 159
+      width: 14
+      height: 19
+    spriteID: fbfa2c78802502b4389b65d7a470aea1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 159}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 168446620
+    name: dodge roll baby
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: dodge roll baby_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 24
+        y: 25
+        width: 15
+        height: 20
+      spriteId: 3fd1b127320bc3a49b11578681daa72c
+    - name: dodge roll baby_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 25
+        y: 29
+        width: 13
+        height: 18
+      spriteId: 4eb0fbd7bc72aa349acaad5c4b6d0ccc
+    - name: dodge roll baby_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 24
+        y: 30
+        width: 15
+        height: 15
+      spriteId: d9fb551cecfa3eb4e8541f837e76d87e
+    - name: dodge roll baby_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 24
+        y: 28
+        width: 15
+        height: 14
+      spriteId: b2ad2b3c1df487d48801539bd4d523b8
+    - name: dodge roll baby_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 27
+        y: 23
+        width: 10
+        height: 16
+      spriteId: c95f3c0655e9e174ab105b3381cccc8f
+    - name: dodge roll baby_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 26
+        y: 24
+        width: 11
+        height: 15
+      spriteId: 6ba29537c7aa7884b87e95483bab39ab
+    - name: dodge roll baby_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 23
+        y: 26
+        width: 17
+        height: 14
+      spriteId: 7be2da5c537de6e4a8d95d3530eb2e9e
+    - name: dodge roll baby_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 24
+        y: 26
+        width: 16
+        height: 18
+      spriteId: 667be72e7c14ac84cbfd03aeb31129d6
+    - name: dodge roll baby_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 25
+        y: 23
+        width: 15
+        height: 22
+      spriteId: e2c133567e42b104c899ee6f0589c681
+    - name: dodge roll baby_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 22
+        y: 22
+        width: 20
+        height: 23
+      spriteId: 1b5482735816c534cae2ae3a3ebc6667
+    - name: dodge roll baby_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 25
+        y: 30
+        width: 19
+        height: 17
+      spriteId: 85860be8021bf17429bc475611201ba7
+    - name: dodge roll baby_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 26
+        y: 27
+        width: 20
+        height: 18
+      spriteId: f1b1db5b0f585674095c64e181d6a6fa
+    - name: dodge roll baby_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 29
+        y: 27
+        width: 16
+        height: 17
+      spriteId: 632a5906505313042899bc94697aebd2
+    - name: dodge roll baby_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 29
+        y: 24
+        width: 17
+        height: 14
+      spriteId: 24d44922ccbead04f80f1eb3b33811d3
+    - name: dodge roll baby_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 31
+        y: 23
+        width: 16
+        height: 18
+      spriteId: 2098a4785a218c04e8b4139ccb2d1cda
+    - name: dodge roll baby_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 32
+        y: 23
+        width: 14
+        height: 20
+      spriteId: b1b94e7284b9dd14188b8a9451f0e21c
+    - name: dodge roll baby_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 34
+        y: 21
+        width: 13
+        height: 17
+      spriteId: 7a59f1b0376d909419e48218a884f75f
+    - name: dodge roll baby_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 34
+        y: 20
+        width: 16
+        height: 16
+      spriteId: ca401368e01d8834185c606ac0963a80
+    - name: dodge roll baby_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 24
+        y: 21
+        width: 15
+        height: 22
+      spriteId: 745089f8c7ca6f446a6c704c0bfc036b
+    - name: dodge roll baby_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 25
+        y: 22
+        width: 12
+        height: 21
+      spriteId: 0bfceca5069b394459f2fa780c6403ce
+    - name: dodge roll baby_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 25
+        y: 24
+        width: 12
+        height: 19
+      spriteId: e7f208609deaa0546a47d06accf28f6a
+    - name: dodge roll baby_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 25
+        y: 24
+        width: 13
+        height: 16
+      spriteId: f0cecdc2687276e43b142da1732427d4
+    - name: dodge roll baby_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 25
+        y: 23
+        width: 13
+        height: 15
+      spriteId: 0beedde94a07c5a46ab4e119d4856766
+    - name: dodge roll baby_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 25
+        y: 23
+        width: 13
+        height: 15
+      spriteId: 32bc82fdca4d2e648ad370830017a70f
+    - name: dodge roll baby_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 25
+        y: 25
+        width: 12
+        height: 16
+      spriteId: c10dd37312fac2b4a98bdff9515a265c
+    - name: dodge roll baby_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 25
+        y: 26
+        width: 12
+        height: 15
+      spriteId: f5c61a7654533d146a1e3e6a8e260c0f
+    - name: dodge roll baby_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 25
+        y: 22
+        width: 12
+        height: 21
+      spriteId: 52d4b833847512944837d628cfee29ab
+    - name: dodge roll baby_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 22
+        y: 22
+        width: 16
+        height: 23
+      spriteId: 360c964eb60d16149a6f0129352cbab8
+    - name: dodge roll baby_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 24
+        y: 25
+        width: 15
+        height: 21
+      spriteId: 464c1d32d94e13042818c889a2c175c4
+    - name: dodge roll baby_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 22
+        y: 26
+        width: 18
+        height: 19
+      spriteId: 73b1eb9dc41e43140b55ccd8e040082d
+    - name: dodge roll baby_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 25
+        y: 25
+        width: 21
+        height: 16
+      spriteId: 4a76aea60c950ed4c91d0f42a0449958
+    - name: dodge roll baby_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 26
+        y: 21
+        width: 21
+        height: 16
+      spriteId: f299cdeb08cbab04bb26101435923c8c
+    - name: dodge roll baby_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 33
+        y: 20
+        width: 12
+        height: 20
+      spriteId: b113acfb7dd0cee489796d2f3b9c9e06
+    - name: dodge roll baby_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 32
+        y: 20
+        width: 13
+        height: 20
+      spriteId: 9602e81e7f6c9e644a97a53bf3b636b6
+    - name: dodge roll baby_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 32
+        y: 22
+        width: 16
+        height: 14
+      spriteId: 32a44be588d41d442be920e62d40fa25
+    - name: dodge roll baby_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 37
+        y: 21
+        width: 14
+        height: 19
+      spriteId: fbfa2c78802502b4389b65d7a470aea1
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
