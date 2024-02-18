@@ -17,7 +17,9 @@ public class RoomController : MonoBehaviour
     private void Awake() 
     {
         Passage.OnPassageActivated += ChangeRoom;
-        _currentRoom = _startRoom.GetComponent<IRoomable>();    
+        _currentRoom = _startRoom.GetComponent<IRoomable>();   
+        KeyComponent.OnKeyComponentDestroy += HideCurrentRoom;
+        EnemyActiveBattleState.OnEnemyHealthLowered += RevealCurrentRoom; 
     }
 
     private void ChangeRoom(IPassage passage)
@@ -25,6 +27,16 @@ public class RoomController : MonoBehaviour
         _currentRoom?.Hide();
         _currentRoom = passage.Room;
         ChangePosition(passage.Type);
+        _currentRoom?.Reveal();
+    }
+
+    private void HideCurrentRoom()
+    {
+        _currentRoom?.Hide();
+    }
+
+    private void RevealCurrentRoom()
+    {
         _currentRoom?.Reveal();
     }
 

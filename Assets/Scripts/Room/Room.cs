@@ -7,6 +7,7 @@ public class Room : MonoBehaviour, IRoomable
 {
     [SerializeField] private List<GameObject> _itemsToHide = new List<GameObject>();
     [SerializeField] private GameObject _picture;
+    [SerializeField] private GameObject _internalWall;
     private Vector3 _defaultPosition;   
 
     private void Awake() 
@@ -20,6 +21,7 @@ public class Room : MonoBehaviour, IRoomable
         {
             item.SetActive(false);
         }
+        _internalWall.SetActive(true);
     }
 
     public void Reveal()
@@ -28,7 +30,7 @@ public class Room : MonoBehaviour, IRoomable
         {
             item.SetActive(true);
         }
-
+        _internalWall.SetActive(false);
         transform.position = Vector3.zero;
     }
 }

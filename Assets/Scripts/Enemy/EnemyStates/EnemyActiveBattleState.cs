@@ -7,6 +7,9 @@ public class EnemyActiveBattleState : StateMachineBehaviour
    [SerializeField] private string[] _enemySpecialAttacks;
    [SerializeField] private float _enemyAttackTimeMultiplier;
 
+   public delegate void EnemyActiveStateChange();
+    public static event EnemyActiveStateChange OnEnemyHealthLowered;
+
     private EnemyContoller _enemyController;
     private float _enemyAttackTime = 0.0f;
 
@@ -19,9 +22,10 @@ public class EnemyActiveBattleState : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-      if(_enemyController.Health < animator.GetInteger("EnemyHealth") - 25)
+      if(_enemyController.Health <= animator.GetInteger("EnemyHealth") - 25)
       {
          animator.SetBool("IsActive", false);
+         OnEnemyHealthLowered?.Invoke();
       }
       _enemyAttackTime += Time.deltaTime;
       if(_enemyAttackTime >= _enemyController.AttackTime * _enemyAttackTimeMultiplier)
