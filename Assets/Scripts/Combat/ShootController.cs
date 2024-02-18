@@ -20,5 +20,11 @@ public class ShootController : MonoBehaviour, ICanShoot
         bullet.transform.position = _weapon.position;
         bullet.transform.rotation = Quaternion.Euler(direction);
         bullet.Rigidbody.velocity = direction.normalized * _bulletSpeed;
+        // Bullet bullet = new Bullet();
+        // Debug.Log(_bulletPrefab);
+        // Instantiate(_bulletPrefab, _weapon.transform.position, Quaternion.identity);
+        // Debug.Log(_bulletPrefab);
+
+        // _bulletPrefab.Rigidbody.velocity = direction.normalized * _bulletSpeed;
     }
 }

@@ -14,9 +14,7 @@ public class ObjectPool<T> where T : MonoBehaviour, IObjectPoolElement<T>
 
         for (int i = 0; i < prewarmObjects; i++)
         {
-            var obj = GameObject.Instantiate(_prefab);
-            obj.SetObjectPool(this);
-            obj.gameObject.SetActive(false);
+            var obj = CreateOneObject();
             _objects.Add(obj);
         }
 
@@ -37,7 +35,20 @@ public class ObjectPool<T> where T : MonoBehaviour, IObjectPoolElement<T>
 
     public void Release(T obj)
     {
+        _objects.Remove(obj);
+        GameObject.Destroy(obj.gameObject);
+
+        var newObj = CreateOneObject();
+        _objects.Add(newObj);
+    }
+
+    // КОСТЫЛЬ
+    protected T CreateOneObject()
+    {
+        var obj = GameObject.Instantiate(_prefab);
+        obj.SetObjectPool(this);
         obj.gameObject.SetActive(false);
+        return obj;
     }
 
     protected T Create()
@@ -46,4 +57,5 @@ public class ObjectPool<T> where T : MonoBehaviour, IObjectPoolElement<T>
         _objects.Add(obj);
         return obj;
     }
+
 }

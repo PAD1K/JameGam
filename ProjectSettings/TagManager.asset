@@ -14,9 +14,9 @@ TagManager:
   - Bullet
   - Player
   - Wall
-  - 
-  - 
-  - 
+  - EnemyBullet
+  - KeyComponents
+  - ExternalWall
   - 
   - 
   - 
