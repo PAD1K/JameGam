@@ -30,7 +30,11 @@ public class MovementController : MonoBehaviour, IMovable
             _movementSpeed = 0;
         }
 
-        _rigidbody.AddForce(direction * _movementSpeed, ForceMode.VelocityChange);
+        Vector3 currentVelocity = _rigidbody.velocity;
+        Vector3 targetVelocity = new Vector3(direction.x,direction.y,0);
+        targetVelocity *= _movementSpeed;
+        Vector3 VelocityChange = targetVelocity - currentVelocity;
+        _rigidbody.AddForce(VelocityChange, ForceMode.VelocityChange);
     }
 
     /// <summary>

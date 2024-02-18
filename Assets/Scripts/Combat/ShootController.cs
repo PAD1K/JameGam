@@ -3,6 +3,7 @@ using UnityEngine;
 public class ShootController : MonoBehaviour, ICanShoot
 {
     [SerializeField] private Bullet _bulletPrefab;
+    [SerializeField] private Transform _weapon;
     [SerializeField] private int _prewarmBullets = 5;
     [SerializeField] private float _bulletSpeed = 5f;
 
@@ -16,7 +17,7 @@ public class ShootController : MonoBehaviour, ICanShoot
     public void Shoot(Vector3 direction)
     {
         Bullet bullet = _bulletPool.Get();
-        bullet.transform.position = transform.position;
+        bullet.transform.position = _weapon.position;
         bullet.transform.rotation = Quaternion.Euler(direction);
         bullet.Rigidbody.velocity = direction.normalized * _bulletSpeed;
     }
