@@ -1,15 +1,15 @@
 using UnityEngine;
 
-public class EnemyBullet : MonoBehaviour, IObjectPoolElement<EnemyBullet>
+public class EnemyBullet : MonoBehaviour
 {
     [SerializeField] private int _bulletDamage = 5;
     public Rigidbody Rigidbody { get; private set; }
-    private ObjectPool<EnemyBullet> _objectPool;
+    //private ObjectPool<EnemyBullet> _objectPool;
 
-    public void SetObjectPool(ObjectPool<EnemyBullet> objectPool)
-    {
-        _objectPool = objectPool;
-    }
+    // public void SetObjectPool(ObjectPool<EnemyBullet> objectPool)
+    // {
+    //     _objectPool = objectPool;
+    // }
 
     private void Awake()
     {
@@ -29,11 +29,12 @@ public class EnemyBullet : MonoBehaviour, IObjectPoolElement<EnemyBullet>
         {
             target.Damage(_bulletDamage);
         }
-        ReleaseBullet();
+        //ReleaseBullet();
+        Destroy(gameObject);
     }
 
     private void ReleaseBullet()
     {
-        _objectPool?.Release(this);
+        //_objectPool?.Release(this);
     }
 }
