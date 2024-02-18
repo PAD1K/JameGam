@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class EnemyIdleState : StateMachineBehaviour
 {
+  [SerializeField] private string[] _enemyAttacks;
     private EnemyContoller _enemyController;
     private float _enemyAttackTime = 0.0f;
     private float _enemyMoveTime = 0.0f;
+
 
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
       _enemyController = animator.GetComponentInParent<EnemyContoller>();
+
+      //генерирует новую атаку
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -20,7 +24,9 @@ public class EnemyIdleState : StateMachineBehaviour
       _enemyMoveTime += Time.deltaTime;
       if(_enemyAttackTime >= _enemyController.AttackTime)
       {
-         animator.SetBool("IsAttacking", true);
+        EnemyAttackState.AttackPrefab = null;
+         //animator.SetTrigger(_enemyAttacks[Random.Range(0,_enemyAttacks.Length)]);
+         animator.SetTrigger(_enemyAttacks[0]);
          _enemyAttackTime = 0.0f;
       }
       if(_enemyMoveTime >= _enemyController.MoveTime)
