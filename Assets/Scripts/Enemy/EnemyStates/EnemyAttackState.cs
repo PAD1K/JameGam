@@ -9,7 +9,6 @@ public class EnemyAttackState : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        Debug.Log("Attacked");
         _player = GameObject.FindGameObjectWithTag("Player");
         _shootController = animator.GetComponentInParent<ShootController>();
         _shootController.Shoot(_player.transform.position - animator.transform.position);
