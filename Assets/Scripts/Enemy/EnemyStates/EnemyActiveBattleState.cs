@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class EnemyActiveBattleState : StateMachineBehaviour
 {
-   [SerializeField] private float _activeMultiplier;
+   [SerializeField] private string[] _enemySpecialAttacks;
+   [SerializeField] private float _enemyAttackTimeMultiplier;
+
     private EnemyContoller _enemyController;
     private float _enemyAttackTime = 0.0f;
-    private float _enemyMoveTime = 0.0f;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -18,17 +19,17 @@ public class EnemyActiveBattleState : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-      _enemyAttackTime += Time.deltaTime;
-      _enemyMoveTime += Time.deltaTime;
-      if(_enemyAttackTime >= _enemyController.AttackTime/_activeMultiplier)
+      if(_enemyController.Health < animator.GetInteger("EnemyHealth") - 25)
       {
-         animator.SetBool("IsAttacking", true);
-         _enemyAttackTime = 0.0f;
+         animator.SetBool("IsActive", false);
       }
-      if(_enemyMoveTime >= _enemyController.MoveTime/_activeMultiplier)
+      _enemyAttackTime += Time.deltaTime;
+      if(_enemyAttackTime >= _enemyController.AttackTime * _enemyAttackTimeMultiplier)
       {
-         animator.SetBool("IsMoving", true);
-         _enemyMoveTime = 0.0f;
+        EnemyAttackState.AttackPrefab = null;
+         //animator.SetTrigger(_enemySpecialAttacks[Random.Range(0,_enemyAttacks.Length)]);
+         animator.SetTrigger(_enemySpecialAttacks[0]);
+         _enemyAttackTime = 0.0f;
       }
     }
 
