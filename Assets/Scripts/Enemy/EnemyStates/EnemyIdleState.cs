@@ -26,7 +26,7 @@ public class EnemyIdleState : StateMachineBehaviour
       {
         EnemyAttackState.AttackPrefab = null;
          //animator.SetTrigger(_enemyAttacks[Random.Range(0,_enemyAttacks.Length)]);
-         animator.SetTrigger(_enemyAttacks[0]);
+         animator.SetTrigger(_enemyAttacks[1]);
          _enemyAttackTime = 0.0f;
       }
       if(_enemyMoveTime >= _enemyController.MoveTime)
