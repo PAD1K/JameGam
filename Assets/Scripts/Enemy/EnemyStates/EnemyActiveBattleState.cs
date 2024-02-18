@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR;
 
 public class EnemyActiveBattleState : StateMachineBehaviour
 {
@@ -16,7 +17,8 @@ public class EnemyActiveBattleState : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       _enemyController = animator.GetComponentInParent<EnemyContoller>();
+      _enemyController = animator.GetComponentInParent<EnemyContoller>();
+      EnemyContoller.OnEnemyChangeState += ChangeState;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -41,5 +43,9 @@ public class EnemyActiveBattleState : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
        
+    }
+
+    private void ChangeState()
+    {
     }
 }
