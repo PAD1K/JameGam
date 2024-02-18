@@ -1,0 +1,1147 @@
+fileFormatVersion: 2
+guid: 8c86f17880666d647bb5d0ad8dbb994d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: dodge roll man_Frame_0
+    originalName: 
+    pivot: {x: 0.53333336, y: -1.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 50
+      width: 15
+      height: 20
+    spriteID: 48da360bc32de694098c8af2834dc1b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 50}
+  - name: dodge roll man_Frame_1
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.8125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 147
+      width: 13
+      height: 16
+    spriteID: 0eef98f05bb027d4a84f206fc7eff40f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 147}
+  - name: dodge roll man_Frame_2
+    originalName: 
+    pivot: {x: 0.53333336, y: -2.1428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 103
+      width: 15
+      height: 14
+    spriteID: cdfd6aca6c006bf44a2bd9be554bc83a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 103}
+  - name: dodge roll man_Frame_3
+    originalName: 
+    pivot: {x: 0.53333336, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 125
+      width: 15
+      height: 14
+    spriteID: 2114129a4ce59a043a67511a48bbb863
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 125}
+  - name: dodge roll man_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -1.4375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 115
+      width: 12
+      height: 16
+    spriteID: 59187cf2d303ca94aaecabc58ce78407
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 115}
+  - name: dodge roll man_Frame_5
+    originalName: 
+    pivot: {x: 0.4615385, y: -1.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 219
+      width: 13
+      height: 15
+    spriteID: 55abedc911c588845b0bb3efd35a00e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 219}
+  - name: dodge roll man_Frame_6
+    originalName: 
+    pivot: {x: 0.5294118, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 48
+      width: 17
+      height: 13
+    spriteID: d7770f50e1d1fe448ac34a6f06d7049a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 48}
+  - name: dodge roll man_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -1.5294118}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 4
+      width: 16
+      height: 17
+    spriteID: 62578d0e547abca4eb37c12f0b8203f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 4}
+  - name: dodge roll man_Frame_8
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 145
+      width: 15
+      height: 21
+    spriteID: d49e8b076dfdd004d90bfd4432bb9e6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 145}
+  - name: dodge roll man_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 20
+      height: 21
+    spriteID: 0a753ccac79522748b3812515618bc26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: dodge roll man_Frame_10
+    originalName: 
+    pivot: {x: 0.36842105, y: -1.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 26
+      width: 19
+      height: 16
+    spriteID: ddba94dd265da2942b4507afcc62d1c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 26}
+  - name: dodge roll man_Frame_11
+    originalName: 
+    pivot: {x: 0.3, y: -1.6875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 121
+      width: 20
+      height: 16
+    spriteID: c505e93253a14cf4ba1f7d65ccc834ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 121}
+  - name: dodge roll man_Frame_12
+    originalName: 
+    pivot: {x: 0.1875, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 56
+      width: 16
+      height: 15
+    spriteID: 050e0e30f64c49a4e8e05ea60892919b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 56}
+  - name: dodge roll man_Frame_13
+    originalName: 
+    pivot: {x: 0.1764706, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 4
+      width: 17
+      height: 14
+    spriteID: 5b411441dc2a89841860078434dd19c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 4}
+  - name: dodge roll man_Frame_14
+    originalName: 
+    pivot: {x: 0.05882353, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 233
+      width: 17
+      height: 18
+    spriteID: 516df1d1cee7b52498afd0cd621e753f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 233}
+  - name: dodge roll man_Frame_15
+    originalName: 
+    pivot: {x: 0, y: -1.15}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 186
+      width: 14
+      height: 20
+    spriteID: d62630f7a1f9ce040be66fe7f41520b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 186}
+  - name: dodge roll man_Frame_16
+    originalName: 
+    pivot: {x: -0.15384616, y: -1.3125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 171
+      width: 13
+      height: 16
+    spriteID: 98129d6d54402b44f911c394fcd398c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 171}
+  - name: dodge roll man_Frame_17
+    originalName: 
+    pivot: {x: -0.20000002, y: -1.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 79
+      width: 15
+      height: 16
+    spriteID: 1ecaa8be374ed464aaaf0423a9a1f430
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 79}
+  - name: dodge roll man_Frame_18
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.9130435}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 63
+      width: 15
+      height: 23
+    spriteID: 7ab51ef3fd67c89489250f83a4577925
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 63}
+  - name: dodge roll man_Frame_19
+    originalName: 
+    pivot: {x: 0.53846157, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 129
+      width: 13
+      height: 22
+    spriteID: 991f80efa84d814458bb1010ed671d8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 129}
+  - name: dodge roll man_Frame_20
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.2631578}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 29
+      width: 13
+      height: 19
+    spriteID: 758e7160dc5bea842a0e5910535674b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 29}
+  - name: dodge roll man_Frame_21
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 195
+      width: 13
+      height: 16
+    spriteID: 5d021cf5b91fb73448d9b75196270ca6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 195}
+  - name: dodge roll man_Frame_22
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.5333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 69
+      width: 13
+      height: 15
+    spriteID: 6185ed7a54ac63447b374c619529a7cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 69}
+  - name: dodge roll man_Frame_23
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.5333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 92
+      width: 13
+      height: 15
+    spriteID: 048ab3c0314454343ab4fe7e05404bd9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 92}
+  - name: dodge roll man_Frame_24
+    originalName: 
+    pivot: {x: 0.5833334, y: -1.5625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 139
+      width: 12
+      height: 16
+    spriteID: 6e961010f0ae4c24a81a9a1e22f7b168
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 139}
+  - name: dodge roll man_Frame_25
+    originalName: 
+    pivot: {x: 0.5833334, y: -1.7333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 163
+      width: 12
+      height: 15
+    spriteID: 76600017fc627084e89566b4cabbdabe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 163}
+  - name: dodge roll man_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 203
+      width: 14
+      height: 22
+    spriteID: 81abf472a42135546a0c964b552cfc22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 203}
+  - name: dodge roll man_Frame_27
+    originalName: 
+    pivot: {x: 0.625, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 33
+      width: 16
+      height: 22
+    spriteID: 7f74ea353c9b2554c881823867a7300a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 33}
+  - name: dodge roll man_Frame_28
+    originalName: 
+    pivot: {x: 0.53333336, y: -1.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 174
+      width: 15
+      height: 21
+    spriteID: 8ff2b979a586a2247acb788e1a2700e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 174}
+  - name: dodge roll man_Frame_29
+    originalName: 
+    pivot: {x: 0.5555556, y: -1.3684211}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 94
+      width: 18
+      height: 19
+    spriteID: 80b277e18c9ebdf48aaadab986759bbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 94}
+  - name: dodge roll man_Frame_30
+    originalName: 
+    pivot: {x: 0.35, y: -1.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 78
+      width: 20
+      height: 15
+    spriteID: 5cead448ec665fc4d82cedb42afa220e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 78}
+  - name: dodge roll man_Frame_31
+    originalName: 
+    pivot: {x: 0.27272728, y: -1.5000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 4
+      width: 22
+      height: 14
+    spriteID: 69472d67391e3d3408151794149848b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 4}
+  - name: dodge roll man_Frame_32
+    originalName: 
+    pivot: {x: -0.071428575, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 214
+      width: 14
+      height: 20
+    spriteID: 1f318662dea991e428a92875ac879f82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 214}
+  - name: dodge roll man_Frame_33
+    originalName: 
+    pivot: {x: 0, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 101
+      width: 15
+      height: 20
+    spriteID: 7abdd31d2d2a36949a8730b3d7873602
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 101}
+  - name: dodge roll man_Frame_34
+    originalName: 
+    pivot: {x: 0.05882353, y: -1.5714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 26
+      width: 17
+      height: 14
+    spriteID: ab8fcc5f34fd4f446b83a098950877ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 26}
+  - name: dodge roll man_Frame_35
+    originalName: 
+    pivot: {x: -0.26666668, y: -1.1052631}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 159
+      width: 15
+      height: 19
+    spriteID: f996630ece53c20439484eb14c2d2d00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 159}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -949203744
+    name: dodge roll man
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: dodge roll man_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 24
+        y: 25
+        width: 15
+        height: 20
+      spriteId: 48da360bc32de694098c8af2834dc1b4
+    - name: dodge roll man_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 25
+        y: 29
+        width: 13
+        height: 16
+      spriteId: 0eef98f05bb027d4a84f206fc7eff40f
+    - name: dodge roll man_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 24
+        y: 30
+        width: 15
+        height: 14
+      spriteId: cdfd6aca6c006bf44a2bd9be554bc83a
+    - name: dodge roll man_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 24
+        y: 28
+        width: 15
+        height: 14
+      spriteId: 2114129a4ce59a043a67511a48bbb863
+    - name: dodge roll man_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 26
+        y: 23
+        width: 12
+        height: 16
+      spriteId: 59187cf2d303ca94aaecabc58ce78407
+    - name: dodge roll man_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 26
+        y: 24
+        width: 13
+        height: 15
+      spriteId: 55abedc911c588845b0bb3efd35a00e0
+    - name: dodge roll man_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 23
+        y: 26
+        width: 17
+        height: 13
+      spriteId: d7770f50e1d1fe448ac34a6f06d7049a
+    - name: dodge roll man_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 24
+        y: 26
+        width: 16
+        height: 17
+      spriteId: 62578d0e547abca4eb37c12f0b8203f7
+    - name: dodge roll man_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 25
+        y: 23
+        width: 15
+        height: 21
+      spriteId: d49e8b076dfdd004d90bfd4432bb9e6c
+    - name: dodge roll man_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 22
+        y: 22
+        width: 20
+        height: 21
+      spriteId: 0a753ccac79522748b3812515618bc26
+    - name: dodge roll man_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 25
+        y: 30
+        width: 19
+        height: 16
+      spriteId: ddba94dd265da2942b4507afcc62d1c7
+    - name: dodge roll man_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 26
+        y: 27
+        width: 20
+        height: 16
+      spriteId: c505e93253a14cf4ba1f7d65ccc834ac
+    - name: dodge roll man_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 29
+        y: 27
+        width: 16
+        height: 15
+      spriteId: 050e0e30f64c49a4e8e05ea60892919b
+    - name: dodge roll man_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 29
+        y: 24
+        width: 17
+        height: 14
+      spriteId: 5b411441dc2a89841860078434dd19c2
+    - name: dodge roll man_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 31
+        y: 23
+        width: 17
+        height: 18
+      spriteId: 516df1d1cee7b52498afd0cd621e753f
+    - name: dodge roll man_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 32
+        y: 23
+        width: 14
+        height: 20
+      spriteId: d62630f7a1f9ce040be66fe7f41520b7
+    - name: dodge roll man_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 34
+        y: 21
+        width: 13
+        height: 16
+      spriteId: 98129d6d54402b44f911c394fcd398c2
+    - name: dodge roll man_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 35
+        y: 20
+        width: 15
+        height: 16
+      spriteId: 1ecaa8be374ed464aaaf0423a9a1f430
+    - name: dodge roll man_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 24
+        y: 21
+        width: 15
+        height: 23
+      spriteId: 7ab51ef3fd67c89489250f83a4577925
+    - name: dodge roll man_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 25
+        y: 22
+        width: 13
+        height: 22
+      spriteId: 991f80efa84d814458bb1010ed671d8f
+    - name: dodge roll man_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 25
+        y: 24
+        width: 13
+        height: 19
+      spriteId: 758e7160dc5bea842a0e5910535674b1
+    - name: dodge roll man_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 25
+        y: 24
+        width: 13
+        height: 16
+      spriteId: 5d021cf5b91fb73448d9b75196270ca6
+    - name: dodge roll man_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 25
+        y: 23
+        width: 13
+        height: 15
+      spriteId: 6185ed7a54ac63447b374c619529a7cb
+    - name: dodge roll man_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 25
+        y: 23
+        width: 13
+        height: 15
+      spriteId: 048ab3c0314454343ab4fe7e05404bd9
+    - name: dodge roll man_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 25
+        y: 25
+        width: 12
+        height: 16
+      spriteId: 6e961010f0ae4c24a81a9a1e22f7b168
+    - name: dodge roll man_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 25
+        y: 26
+        width: 12
+        height: 15
+      spriteId: 76600017fc627084e89566b4cabbdabe
+    - name: dodge roll man_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 25
+        y: 22
+        width: 14
+        height: 22
+      spriteId: 81abf472a42135546a0c964b552cfc22
+    - name: dodge roll man_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 22
+        y: 22
+        width: 16
+        height: 22
+      spriteId: 7f74ea353c9b2554c881823867a7300a
+    - name: dodge roll man_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 24
+        y: 25
+        width: 15
+        height: 21
+      spriteId: 8ff2b979a586a2247acb788e1a2700e4
+    - name: dodge roll man_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 22
+        y: 26
+        width: 18
+        height: 19
+      spriteId: 80b277e18c9ebdf48aaadab986759bbd
+    - name: dodge roll man_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 25
+        y: 25
+        width: 20
+        height: 15
+      spriteId: 5cead448ec665fc4d82cedb42afa220e
+    - name: dodge roll man_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 26
+        y: 21
+        width: 22
+        height: 14
+      spriteId: 69472d67391e3d3408151794149848b5
+    - name: dodge roll man_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 33
+        y: 20
+        width: 14
+        height: 20
+      spriteId: 1f318662dea991e428a92875ac879f82
+    - name: dodge roll man_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 32
+        y: 20
+        width: 15
+        height: 20
+      spriteId: 7abdd31d2d2a36949a8730b3d7873602
+    - name: dodge roll man_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 31
+        y: 22
+        width: 17
+        height: 14
+      spriteId: ab8fcc5f34fd4f446b83a098950877ee
+    - name: dodge roll man_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 36
+        y: 21
+        width: 15
+        height: 19
+      spriteId: f996630ece53c20439484eb14c2d2d00
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

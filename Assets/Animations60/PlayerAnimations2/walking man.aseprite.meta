@@ -1,0 +1,811 @@
+fileFormatVersion: 2
+guid: 491995b4680f01d4c852c15f52a3592b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: walking man_Frame_0
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 65
+      width: 17
+      height: 21
+    spriteID: 865a941c263be88499cd7162dc7c10db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 65}
+  - name: walking man_Frame_1
+    originalName: 
+    pivot: {x: 0.6, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 183
+      width: 15
+      height: 23
+    spriteID: 3ae8e9271c6f8e34eaa506c35bc44446
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 183}
+  - name: walking man_Frame_2
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.95652175}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 214
+      width: 15
+      height: 23
+    spriteID: 7c6f8dbc93fa9134e9344eba7b1c5715
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 214}
+  - name: walking man_Frame_3
+    originalName: 
+    pivot: {x: 0.5294118, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 102
+      width: 17
+      height: 22
+    spriteID: 1990a541a10fe9e4ba208ae1c256bebf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 102}
+  - name: walking man_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 192
+      width: 16
+      height: 23
+    spriteID: 4d9e5e6613f297f41a2b9ab0959bf73d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 192}
+  - name: walking man_Frame_5
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.88}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 17
+      height: 25
+    spriteID: 6350b3d2b83a78447b2d9277067651fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: walking man_Frame_6
+    originalName: 
+    pivot: {x: 0.5625, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 123
+      width: 16
+      height: 22
+    spriteID: 95863bd18d7c5894da43ecdf2b6a8c4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 123}
+  - name: walking man_Frame_7
+    originalName: 
+    pivot: {x: 0.5625, y: -1.0434783}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 223
+      width: 16
+      height: 23
+    spriteID: 5b2d18b4f14e7ef4997b792ef8caf952
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 223}
+  - name: walking man_Frame_8
+    originalName: 
+    pivot: {x: 0.47058824, y: -1.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 94
+      width: 17
+      height: 21
+    spriteID: b277c7711e41bf44ca56bbea2b1543b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 94}
+  - name: walking man_Frame_9
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 37
+      width: 17
+      height: 24
+    spriteID: 3ae9d9fdf499efa47b680d222edcfdb7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 37}
+  - name: walking man_Frame_10
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.79999995}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 69
+      width: 15
+      height: 25
+    spriteID: 14671903cda5f614f8a37a528a6468c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 69}
+  - name: walking man_Frame_11
+    originalName: 
+    pivot: {x: 0.26666668, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 33
+      width: 15
+      height: 24
+    spriteID: 9c381532840690c4d94f8516d24732ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 33}
+  - name: walking man_Frame_12
+    originalName: 
+    pivot: {x: 0.53333336, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 35
+      width: 15
+      height: 22
+    spriteID: 2d778b49f7678434da06c0380026cba3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 35}
+  - name: walking man_Frame_13
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.3000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 94
+      width: 15
+      height: 20
+    spriteID: c6f27b061a548a64eab0c672923f89f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 94}
+  - name: walking man_Frame_14
+    originalName: 
+    pivot: {x: 0.40000004, y: -1.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 122
+      width: 15
+      height: 20
+    spriteID: c234c845f18cb304d830461a2f72cca9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 122}
+  - name: walking man_Frame_15
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.95652175}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 4
+      width: 15
+      height: 23
+    spriteID: 24633b3cb60a5d24c942d58e199f193c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 4}
+  - name: walking man_Frame_16
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.3000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 4
+      width: 17
+      height: 20
+    spriteID: 15aa97aad52736645874e0a07f918765
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 4}
+  - name: walking man_Frame_17
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.1428572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 4
+      width: 18
+      height: 21
+    spriteID: e23506163d02dc74697cf20af5b802d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 4}
+  - name: walking man_Frame_18
+    originalName: 
+    pivot: {x: 0.375, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 153
+      width: 16
+      height: 22
+    spriteID: 65aff772acb7e254a8f66552937c1682
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 153}
+  - name: walking man_Frame_19
+    originalName: 
+    pivot: {x: 0.5882353, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 132
+      width: 17
+      height: 22
+    spriteID: ca1d3eade717e7a419e0184dffb13972
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 132}
+  - name: walking man_Frame_20
+    originalName: 
+    pivot: {x: 0.4117647, y: -1.1363636}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 162
+      width: 17
+      height: 22
+    spriteID: abe5597b94063f6478cdcac871db0ff9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 162}
+  - name: walking man_Frame_21
+    originalName: 
+    pivot: {x: 0.23076925, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 150
+      width: 13
+      height: 21
+    spriteID: 8829b83b513ae364cb3b2d1fbf87f9fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 150}
+  - name: walking man_Frame_22
+    originalName: 
+    pivot: {x: 0.15384616, y: -1.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 179
+      width: 13
+      height: 21
+    spriteID: b013bae30c9fef044adc8df697aeab29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 179}
+  - name: walking man_Frame_23
+    originalName: 
+    pivot: {x: 0.06666667, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 65
+      width: 15
+      height: 21
+    spriteID: 7d72191d1c7c3d548b8acde35cc732ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 65}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1490000439
+    name: walking man
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: walking man_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 23
+        y: 22
+        width: 17
+        height: 21
+      spriteId: 865a941c263be88499cd7162dc7c10db
+    - name: walking man_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 23
+        y: 23
+        width: 15
+        height: 23
+      spriteId: 3ae8e9271c6f8e34eaa506c35bc44446
+    - name: walking man_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 24
+        y: 22
+        width: 15
+        height: 23
+      spriteId: 7c6f8dbc93fa9134e9344eba7b1c5715
+    - name: walking man_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 23
+        y: 22
+        width: 17
+        height: 22
+      spriteId: 1990a541a10fe9e4ba208ae1c256bebf
+    - name: walking man_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 24
+        y: 23
+        width: 16
+        height: 23
+      spriteId: 4d9e5e6613f297f41a2b9ab0959bf73d
+    - name: walking man_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 23
+        y: 22
+        width: 17
+        height: 25
+      spriteId: 6350b3d2b83a78447b2d9277067651fb
+    - name: walking man_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 23
+        y: 22
+        width: 16
+        height: 22
+      spriteId: 95863bd18d7c5894da43ecdf2b6a8c4e
+    - name: walking man_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 23
+        y: 24
+        width: 16
+        height: 23
+      spriteId: 5b2d18b4f14e7ef4997b792ef8caf952
+    - name: walking man_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 24
+        y: 25
+        width: 17
+        height: 21
+      spriteId: b277c7711e41bf44ca56bbea2b1543b2
+    - name: walking man_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 24
+        y: 21
+        width: 17
+        height: 24
+      spriteId: 3ae9d9fdf499efa47b680d222edcfdb7
+    - name: walking man_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 27
+        y: 20
+        width: 15
+        height: 25
+      spriteId: 14671903cda5f614f8a37a528a6468c6
+    - name: walking man_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 28
+        y: 20
+        width: 15
+        height: 24
+      spriteId: 9c381532840690c4d94f8516d24732ca
+    - name: walking man_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 24
+        y: 22
+        width: 15
+        height: 22
+      spriteId: 2d778b49f7678434da06c0380026cba3
+    - name: walking man_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 25
+        y: 26
+        width: 15
+        height: 20
+      spriteId: c6f27b061a548a64eab0c672923f89f9
+    - name: walking man_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 26
+        y: 25
+        width: 15
+        height: 20
+      spriteId: c234c845f18cb304d830461a2f72cca9
+    - name: walking man_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 24
+        y: 22
+        width: 15
+        height: 23
+      spriteId: 24633b3cb60a5d24c942d58e199f193c
+    - name: walking man_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 23
+        y: 26
+        width: 17
+        height: 20
+      spriteId: 15aa97aad52736645874e0a07f918765
+    - name: walking man_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 24
+        y: 24
+        width: 18
+        height: 21
+      spriteId: e23506163d02dc74697cf20af5b802d9
+    - name: walking man_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 26
+        y: 22
+        width: 16
+        height: 22
+      spriteId: 65aff772acb7e254a8f66552937c1682
+    - name: walking man_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 22
+        y: 23
+        width: 17
+        height: 22
+      spriteId: ca1d3eade717e7a419e0184dffb13972
+    - name: walking man_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 25
+        y: 25
+        width: 17
+        height: 22
+      spriteId: abe5597b94063f6478cdcac871db0ff9
+    - name: walking man_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 29
+        y: 21
+        width: 13
+        height: 21
+      spriteId: 8829b83b513ae364cb3b2d1fbf87f9fd
+    - name: walking man_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 30
+        y: 23
+        width: 13
+        height: 21
+      spriteId: b013bae30c9fef044adc8df697aeab29
+    - name: walking man_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 31
+        y: 21
+        width: 15
+        height: 21
+      spriteId: 7d72191d1c7c3d548b8acde35cc732ac
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
