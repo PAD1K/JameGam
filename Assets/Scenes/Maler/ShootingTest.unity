@@ -295,7 +295,7 @@ Transform:
   m_GameObject: {fileID: 201839705}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.2, y: 0, z: 0.1}
+  m_LocalPosition: {x: 5.2, y: 0, z: -0.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -488,8 +488,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bulletPrefab: {fileID: 8964046707825193928, guid: b48be3f4e7ae97b48a320bfae564ef5f, type: 3}
+  _weapon: {fileID: 1541793913}
   _prewarmBullets: 5
-  _bulletSpeed: 5
+  _bulletSpeed: 1
 --- !u!212 &1541793912
 SpriteRenderer:
   m_ObjectHideFlags: 0
