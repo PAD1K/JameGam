@@ -21,7 +21,6 @@ public class Room : MonoBehaviour, IRoomable
         {
             item.SetActive(false);
         }
-        _internalWall.SetActive(true);
     }
 
     public void Reveal()
@@ -30,7 +29,6 @@ public class Room : MonoBehaviour, IRoomable
         {
             item.SetActive(true);
         }
-        _internalWall.SetActive(false);
         transform.position = Vector3.zero;
     }
 }
