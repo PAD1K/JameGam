@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Stats : MonoBehaviour, IDamageable
-{    
+{ 
     public int Health
     { 
         get{ return _health; }
     }
     [SerializeField] private int _health;
+    private int _currentSpriteNumber = 0;
+    private Animator[] _playerAnimations;
+    private MovementController _movementController;
 
     /// <summary>
     /// Наносит урон объекту.
@@ -43,5 +46,46 @@ public class Stats : MonoBehaviour, IDamageable
         gameObject.SetActive(false);
         
         // TODO: анимация смерти
+    }
+
+    private void Awake() 
+    {
+        _playerAnimations = GetComponentsInChildren<Animator>();
+        if (_playerAnimations == null)
+        {
+            Debug.LogWarning("Animations is not set");
+            return;
+        }
+
+        _movementController = GetComponent<MovementController>();
+        if (_movementController == null)
+        {
+            Debug.LogWarning("Movement Controller is not set");
+            return;
+        }
+
+        foreach (Animator animation in _playerAnimations)
+        {
+            animation.gameObject.SetActive(false);
+        }
+
+        // Первый в списке аниматор является активным по умолчанию. 
+        _playerAnimations[0].gameObject.SetActive(false);
+        
+        EnemyContoller.OnEnemyChangeState += ChangeSprite;
+    }
+
+    public void ChangeSprite()
+    {
+        // Если спрайт последний
+        if (_currentSpriteNumber >= _playerAnimations.Length - 1)
+        {
+            return;
+        }
+
+        _playerAnimations[_currentSpriteNumber].gameObject.SetActive(false);
+        _currentSpriteNumber++;
+        _playerAnimations[_currentSpriteNumber].gameObject.SetActive(true);
+        _movementController.PlayerAnimator = _playerAnimations[_currentSpriteNumber];
     }
 }
