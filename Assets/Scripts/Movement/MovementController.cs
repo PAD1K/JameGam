@@ -10,6 +10,11 @@ public class MovementController : MonoBehaviour, IMovable
     {
         get { return _movementSpeed; }
     }
+    // public Animator PlayerAnimator => _playerAnimator = value;
+    public Animator PlayerAnimator
+    {
+        set => _playerAnimator = value;
+    }
     [SerializeField] private float _movementSpeed;
     [SerializeField] private float _dashForce;
     [SerializeField] private Animator _playerAnimator;
