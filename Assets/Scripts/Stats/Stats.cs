@@ -70,7 +70,7 @@ public class Stats : MonoBehaviour, IDamageable
         }
 
         // Первый в списке аниматор является активным по умолчанию. 
-        _playerAnimations[0].gameObject.SetActive(false);
+        _playerAnimations[0].gameObject.SetActive(true);
         
         EnemyContoller.OnEnemyChangeState += ChangeSprite;
     }
