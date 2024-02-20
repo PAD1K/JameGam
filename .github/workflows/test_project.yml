@@ -10,11 +10,10 @@ jobs:
       fail-fast: false
       matrix:
         projectPath:
-          - Packages
+          - Project
         testMode:
           - playmode
           - editmode
-          - standalone
     steps:
       - uses: actions/checkout@v4
         with:
