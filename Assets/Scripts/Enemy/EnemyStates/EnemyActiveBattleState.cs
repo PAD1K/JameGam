@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.XR;
 
@@ -7,16 +8,19 @@ public class EnemyActiveBattleState : StateMachineBehaviour
 {
    [SerializeField] private string[] _enemySpecialAttacks;
    [SerializeField] private float _enemyAttackTimeMultiplier;
+   [SerializeField] private int _currentSprite = 0;
 
    public delegate void EnemyActiveStateChange();
     public static event EnemyActiveStateChange OnEnemyHealthLowered;
 
     private EnemyContoller _enemyController;
+    private Animator _animator;
     private float _enemyAttackTime = 0.0f;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+      _animator = animator;
       _enemyController = animator.GetComponentInParent<EnemyContoller>();
       EnemyContoller.OnEnemyChangeState += ChangeState;
     }
@@ -42,10 +46,18 @@ public class EnemyActiveBattleState : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       
+      animator.SetInteger("EnemyHealth",_enemyController.Health); 
     }
 
     private void ChangeState()
     {
+      if(_currentSprite > 2)
+            {
+                return;
+            }
+            _currentSprite++;
+            _animator.Play(_currentSprite + "anim");
+            //_spriteRenderer.sprite = _enemySprite[_currentSprite];
+            //Debug.Log("SPRITE CHANGED TO " + _spriteRenderer.sprite.name);
     }
 }

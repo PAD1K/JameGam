@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1045,7 +1045,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2424fd78b089f1b4ebda1a2e5c149a01, type: 3}
+  m_Sprite: {fileID: -4840739790466039971, guid: 8bf3d4d684975f24db95add13986b791, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1066,6 +1066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 692450269}
   - component: {fileID: 692450268}
+  - component: {fileID: 692450270}
   m_Layer: 0
   m_Name: BackSprite
   m_TagString: Untagged
@@ -1140,6 +1141,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &692450270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692450267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806e9a8241cd18e4fb56d23cc6339557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _backgroundSprite:
+  - {fileID: 21300000, guid: f0eba91d86e691441a99e44553304b03, type: 3}
+  - {fileID: 21300000, guid: e54dad3ccdf32f244bf242b4d8eb27f6, type: 3}
+  - {fileID: 21300000, guid: 2585b799535ef6244869349ff33d2656, type: 3}
+  _spriteRenderer: {fileID: 0}
 --- !u!1 &745072379 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1957026579942549726, guid: 802c8962a45524c43a40b7ccb81b82cf, type: 3}
@@ -1598,7 +1616,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 27.22
+  orthographic size: 18.45
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1623,7 +1641,7 @@ Transform:
   m_GameObject: {fileID: 1017510164}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.4, y: 4.3, z: -60}
+  m_LocalPosition: {x: 0, y: 4.3, z: -60}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2101,15 +2119,15 @@ PrefabInstance:
     - target: {fileID: 3288937891978969226, guid: 59f2a336178e50b42b3d5ab0a05929b6, type: 3}
       propertyPath: _enemySprite.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 2424fd78b089f1b4ebda1a2e5c149a01, type: 3}
+      objectReference: {fileID: -4840739790466039971, guid: 8bf3d4d684975f24db95add13986b791, type: 3}
     - target: {fileID: 3288937891978969226, guid: 59f2a336178e50b42b3d5ab0a05929b6, type: 3}
       propertyPath: _enemySprite.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 86fc8eec7950e4d4fb4a2964e3e0897b, type: 3}
+      objectReference: {fileID: 3206162748042546031, guid: 3fb8d8a253ee6424e91317acd8525a26, type: 3}
     - target: {fileID: 3288937891978969226, guid: 59f2a336178e50b42b3d5ab0a05929b6, type: 3}
       propertyPath: _enemySprite.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: e4827b18beb27754abf5dfcd1d2350b5, type: 3}
+      objectReference: {fileID: -5591153713886742227, guid: 1610b6487c75e894b817c8b4420ebf89, type: 3}
     - target: {fileID: 3686637714713121293, guid: 59f2a336178e50b42b3d5ab0a05929b6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.15
@@ -2148,7 +2166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5490552665036664688, guid: 59f2a336178e50b42b3d5ab0a05929b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.5
+      value: 17.78
       objectReference: {fileID: 0}
     - target: {fileID: 5490552665036664688, guid: 59f2a336178e50b42b3d5ab0a05929b6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2208,7 +2226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7864157474469066862, guid: 59f2a336178e50b42b3d5ab0a05929b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16
+      value: -4.31
       objectReference: {fileID: 0}
     - target: {fileID: 8043422998609366867, guid: 59f2a336178e50b42b3d5ab0a05929b6, type: 3}
       propertyPath: _bulletPrefab
