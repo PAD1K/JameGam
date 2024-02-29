@@ -22,9 +22,8 @@ public class EnemyActiveBattleState : StateMachineBehaviour
     {
       _animator = animator;
       _enemyController = animator.GetComponentInParent<EnemyContoller>();
-      EnemyContoller.OnEnemyChangeState += ChangeState;
     }
-
+    
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -48,16 +47,20 @@ public class EnemyActiveBattleState : StateMachineBehaviour
     {
       animator.SetInteger("EnemyHealth",_enemyController.Health); 
     }
-
+    void OnEnable()
+    {
+      EnemyContoller.OnEnemyChangeState += ChangeState;
+    }
+    void OnDisable()
+    {
+      EnemyContoller.OnEnemyChangeState -= ChangeState;
+    }
     private void ChangeState()
     {
-      if(_currentSprite > 2)
-            {
-                return;
-            }
-            _currentSprite++;
-            _animator.Play(_currentSprite + "anim");
-            //_spriteRenderer.sprite = _enemySprite[_currentSprite];
-            //Debug.Log("SPRITE CHANGED TO " + _spriteRenderer.sprite.name);
+      Debug.Log($"INVOKED{_currentSprite}");
+      _currentSprite++;
+      _animator.Play(_currentSprite + "anim");
+      _animator.SetBool("IsActive", false);
+      OnEnemyHealthLowered?.Invoke();
     }
 }

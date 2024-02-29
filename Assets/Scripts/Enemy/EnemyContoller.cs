@@ -11,7 +11,7 @@ public class EnemyContoller : MonoBehaviour, IDamageable
     [SerializeField] private SpriteRenderer _spriteRenderer;
     [SerializeField] private Sprite[] _enemySprite;
     [SerializeField] private float _attackTime;
-    [SerializeField] private int _currentSprite = 0;
+    private int _currentSprite;
     public int Health
     {
        get
@@ -33,7 +33,7 @@ public class EnemyContoller : MonoBehaviour, IDamageable
     // Start is called before the first frame update
     void Awake()
     {
-        //_spriteRenderer.sprite = _enemySprite[0];
+        _currentSprite = 0;
     }
 
     // Update is called once per frame
@@ -57,6 +57,13 @@ public class EnemyContoller : MonoBehaviour, IDamageable
 
         if (_health % 100 == 0)
         {
+            _currentSprite++;
+            if(_currentSprite > 2)
+            {
+                return;
+            }
+            Debug.Log("SPRITE CHANGED TO " + _currentSprite);
+            _spriteRenderer.sprite = _enemySprite[_currentSprite];
             OnEnemyChangeState?.Invoke();
         }
 

@@ -33,12 +33,29 @@ public class MovementController : MonoBehaviour, IMovable
         {
             return;
         }
-
+        if(direction != Vector3.zero)
+        {
+            if(direction.x > 0 && direction.y == 0)
+            {
+                _spriteRenderer.flipX = false;
+            }
+            if(direction.x < 0 && direction.y == 0)
+            {
+                _spriteRenderer.flipX = true;
+            }
+            _playerAnimator.SetBool("IsWalking", true);
+            _playerAnimator.SetFloat("DirX", direction.x);
+            _playerAnimator.SetFloat("DirY", direction.y);
+        }
+        else
+        {
+            _playerAnimator.SetBool("IsWalking", false);
+        }
         if (_movementSpeed < 0)
         {
             _movementSpeed = 0;
         }
-        PlayAnimation(direction);
+        //PlayAnimation(direction);
         Vector3 currentVelocity = _rigidbody.velocity;
         Vector3 targetVelocity = new Vector3(direction.x,direction.y,0);
         targetVelocity *= _movementSpeed;
@@ -53,6 +70,7 @@ public class MovementController : MonoBehaviour, IMovable
     public void Dash(Vector3 direction)
     {
         _rigidbody.AddForce(direction * _dashForce, ForceMode.VelocityChange);
+        _playerAnimator.SetTrigger("Dashed");
     }
 
     private void Awake()
@@ -60,35 +78,5 @@ public class MovementController : MonoBehaviour, IMovable
         _rigidbody = gameObject.GetComponent<Rigidbody>();
         _rigidbody.freezeRotation = true;
         _spriteRenderer = _playerAnimator.GetComponent<SpriteRenderer>();
-    }
-
-    private void PlayAnimation(Vector3 direction)
-    {
-        if(direction.y == 0 && direction.x == 0)
-        {
-            _playerAnimator.Play(_currentAnimation);
-        }
-        if(direction.y < 0)
-        {
-            _currentAnimation = "down";
-            _playerAnimator.Play("run " + _currentAnimation);
-        }
-        if(direction.y > 0)
-        {
-            _currentAnimation = "up";
-            _playerAnimator.Play("run " + _currentAnimation);
-        }
-        if(direction.x > 0 && direction.y == 0)
-        {
-            _currentAnimation = "right";
-            _spriteRenderer.flipX = false;
-            _playerAnimator.Play("run " + _currentAnimation);
-        }
-        if(direction.x < 0 && direction.y == 0)
-        {
-            _currentAnimation = "right";
-            _spriteRenderer.flipX = true;
-            _playerAnimator.Play("run " + _currentAnimation);
-        }
     }
 }
